@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask-injector = "*"
+python-dotenv = "*"
+flask-sqlalchemy = "*"
+psycopg2-binary = "*"
+jinja2 = "*"
+flask-swagger = "*"
+flask-restplus = "*"
+werkzeug = "==0.16.1"
+pytest = "==3.9.2"
+pytest-html = "==1.19.0"
+pytest-metadata = "==1.7.0"
+
+[requires]
+python_version = "3.7"
